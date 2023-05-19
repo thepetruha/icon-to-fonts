@@ -1,0 +1,25 @@
+{
+  "name": "font-generate-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "svgtofont": {
+    "fontName": "ic",
+    "website": false,
+    "outSVGReact": false,
+    "css": {
+      "include": "\\.(css)$",
+      "output": "./styles",
+      "fileName": "ic-icon",
+      "cssPath": "./styles/fonts/"
+    }
+  },
+  "dependencies": {
+    "svgtofont": "^3.23.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
